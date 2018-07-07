@@ -53,6 +53,7 @@ function getfile(file,callback){
      child2.appendChild(eduTable);
      }
      function skills(skil) {
+	    
      	var ul = document.createElement("ul");
      	child2.appendChild(ul);
      	for (var i = 0;i<skil.length;i++) {
